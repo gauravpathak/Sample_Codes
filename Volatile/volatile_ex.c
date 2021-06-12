@@ -1,9 +1,6 @@
 /*
  * volatile_ex.c
  * 
- *  
- * Created on: 23-Apr-2017
- * 
  * This example demonstrates the effect of volatile qualifier on a variable.
  * Explanation: How to use this example...
  * the variable counter is declared as a non-volatile auto global variable, under
