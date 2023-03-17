@@ -3,7 +3,7 @@
  * 
  * This example demonstrates the effect of volatile qualifier on a variable.
  * Explanation: How to use this example...
- * the variable counter is declared as a non-volatile auto global variable, under
+ * the variable counter is declared as a non-volatile global variable, under
  * normal compilation condition (without optimization), ie. gcc volatile_ex.c -o volatile_ex -pthread
  * the program works as per the expected logic written i.e. the program will
  * wait on the instruction while(counter == 0); for variable counter value to 
