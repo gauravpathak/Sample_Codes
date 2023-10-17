@@ -21,6 +21,10 @@
  * program with optimization on. gcc -O3 volatile_ex.c -o volatile_ex -pthread
  * Run the program and see the behavior.
  */
+/* Refer: 
+ * https://stackoverflow.com/questions/43570984/why-gcc-isnt-optimizing-the-global-variable
+ * https://stackoverflow.com/questions/75769593/why-and-how-this-c-code-can-produce-an-undefined-behavior
+ */
 
 #include <stdio.h>
 #include <signal.h>
