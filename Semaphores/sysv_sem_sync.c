@@ -1,5 +1,6 @@
 /* This is a simple example to understand process synchronization using semaphores */
 /* This example uses SysV Semaphore */
+/*Refer: https://stackoverflow.com/questions/43548740/counting-semaphore-using-sysv*/
 
 #include <stdio.h>
 #include <unistd.h>
